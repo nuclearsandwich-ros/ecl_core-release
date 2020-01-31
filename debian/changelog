@@ -1,0 +1,19 @@
+ros-turbulent-ecl-streams (1.0.6-2bionic) bionic; urgency=high
+
+  * bugfix a warning-as-error on a throw in a method declaration`#99 <https://github.com/stonier/ecl_core/pull/99>`_
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sat, 11 Jan 2020 08:00:00 -0000
+
+ros-turbulent-ecl-streams (0.60.7-2bionic) bionic; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 03 Feb 2014 08:00:00 -0000
+
+ros-turbulent-ecl-streams (0.60.6-2bionic) bionic; urgency=high
+
+
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 29 Jan 2014 08:00:00 -0000
+
+
