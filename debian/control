@@ -1,0 +1,12 @@
+Source: ros-turbulent-ecl-linear-algebra
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-converters, ros-turbulent-ecl-eigen, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-math, ros-turbulent-sophus, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_linear_algebra
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-linear-algebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-build, ros-turbulent-ecl-converters, ros-turbulent-ecl-eigen, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-math, ros-turbulent-sophus, ros-turbulent-ros-workspace
+Description: Ecl frontend to a linear matrix package (currently eigen).
