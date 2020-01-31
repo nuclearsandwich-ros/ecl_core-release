@@ -1,0 +1,13 @@
+ros-turbulent-ecl-exceptions (1.0.6-2bionic) bionic; urgency=high
+
+  * dangling pointer on exceptions fixed, #96 <https://github.com/stonier/ecl_core/pull/96>
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sat, 11 Jan 2020 08:00:00 -0000
+
+ros-turbulent-ecl-exceptions (0.61.14-2bionic) bionic; urgency=high
+
+  * expose the string message in the exception api
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 16 Jun 2016 07:00:00 -0000
+
+
