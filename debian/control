@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-converters
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-concepts, ros-turbulent-ecl-config, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-concepts, ros-turbulent-ecl-config, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
