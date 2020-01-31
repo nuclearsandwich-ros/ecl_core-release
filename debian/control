@@ -1,0 +1,12 @@
+Source: ros-turbulent-ecl-math
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-license, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_math
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-license, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Description: This package provides simple support to cmath, filling in holes or redefining in a c++ formulation where desirable.
