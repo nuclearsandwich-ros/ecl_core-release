@@ -1,0 +1,12 @@
+Source: ros-turbulent-ecl-type-traits
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_type_traits
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-type-traits
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-config, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ros-workspace
+Description: Extends c++ type traits and implements a few more to boot.
