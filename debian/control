@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-containers
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-converters, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ecl-utilities, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-config, ros-turbulent-ecl-converters, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ecl-utilities, ros-turbulent-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
