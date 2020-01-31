@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-mobile-robot
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-errors, ros-turbulent-ecl-formatters, ros-turbulent-ecl-geometry, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-math, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_mobile_robot
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-mobile-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-build, ros-turbulent-ecl-errors, ros-turbulent-ecl-formatters, ros-turbulent-ecl-geometry, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-math, ros-turbulent-ros-workspace
+Description: Contains transforms (e.g.
+ differential drive inverse kinematics) for the various types of mobile robot platforms.
