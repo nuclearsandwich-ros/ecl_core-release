@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-geometry
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-containers, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-math, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_geometry
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-geometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-containers, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-math, ros-turbulent-ecl-mpl, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Description: Any tools relating to mathematical geometry.
+ Primarily featuring polynomials and interpolations.
