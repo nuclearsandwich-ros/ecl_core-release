@@ -1,0 +1,12 @@
+Source: ros-turbulent-ecl-core
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-ros, ros-turbulent-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-command-line, ros-turbulent-ecl-concepts, ros-turbulent-ecl-containers, ros-turbulent-ecl-converters, ros-turbulent-ecl-core-apps, ros-turbulent-ecl-devices, ros-turbulent-ecl-eigen, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-geometry, ros-turbulent-ecl-ipc, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-math, ros-turbulent-ecl-mpl, ros-turbulent-ecl-sigslots, ros-turbulent-ecl-statistics, ros-turbulent-ecl-streams, ros-turbulent-ecl-threads, ros-turbulent-ecl-time, ros-turbulent-ecl-type-traits, ros-turbulent-ecl-utilities, ros-turbulent-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
