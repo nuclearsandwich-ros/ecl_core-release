@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-time
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-license, ros-turbulent-ecl-time-lite, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_time
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-time
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-build, ros-turbulent-ecl-config, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-license, ros-turbulent-ecl-time-lite, ros-turbulent-ros-workspace
+Description: Timing utilities are very dependent on the system api provided for their use.
+ This package provides a means for handling different timing models. Current support - posix rt : complete. - macosx : posix timers only, missing absolute timers. - win : none.
