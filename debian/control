@@ -1,0 +1,13 @@
+Source: ros-turbulent-ecl-core-apps
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-ros, ros-turbulent-ecl-build, ros-turbulent-ecl-command-line, ros-turbulent-ecl-config, ros-turbulent-ecl-containers, ros-turbulent-ecl-converters, ros-turbulent-ecl-devices, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-geometry, ros-turbulent-ecl-ipc, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-sigslots, ros-turbulent-ecl-streams, ros-turbulent-ecl-threads, ros-turbulent-ecl-time-lite, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_core_apps
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ecl-core-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ecl-build, ros-turbulent-ecl-command-line, ros-turbulent-ecl-config, ros-turbulent-ecl-containers, ros-turbulent-ecl-converters, ros-turbulent-ecl-devices, ros-turbulent-ecl-errors, ros-turbulent-ecl-exceptions, ros-turbulent-ecl-formatters, ros-turbulent-ecl-geometry, ros-turbulent-ecl-ipc, ros-turbulent-ecl-license, ros-turbulent-ecl-linear-algebra, ros-turbulent-ecl-sigslots, ros-turbulent-ecl-streams, ros-turbulent-ecl-threads, ros-turbulent-ecl-time-lite, ros-turbulent-ecl-type-traits, ros-turbulent-ros-workspace
+Description: This includes a suite of programs demo'ing various aspects of the ecl_core.
+ It also includes various benchmarking and utility programs for use primarily with embedded systems.
