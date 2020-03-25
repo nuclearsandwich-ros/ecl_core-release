@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-geometry
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-config, ros-verystable-ecl-containers, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-linear-algebra, ros-verystable-ecl-math, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_geometry
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-geometry
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-build, ros-verystable-ecl-config, ros-verystable-ecl-containers, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-linear-algebra, ros-verystable-ecl-math, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Description: Any tools relating to mathematical geometry.
+ Primarily featuring polynomials and interpolations.
