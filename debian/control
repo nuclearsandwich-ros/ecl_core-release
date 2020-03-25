@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-formatters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ecl-build, ros-verystable-ecl-config, ros-verystable-ecl-converters, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_formatters
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-formatters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-config, ros-verystable-ecl-converters, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Description: The formatters here simply format various input types to a specified text format.
+ They can be used with most streaming types (including both ecl and stl streams).
