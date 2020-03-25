@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-exceptions
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ecl-build, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_exceptions
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-exceptions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Description: Template based exceptions - these are simple and practical and avoid the proliferation of exception types.
+ Although not syntatactically ideal, it is convenient and eminently practical.
