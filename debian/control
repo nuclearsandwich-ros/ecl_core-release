@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-core
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ros-workspace
+Homepage: http://www.ros.org/wiki/ecl_core
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-command-line, ros-verystable-ecl-concepts, ros-verystable-ecl-containers, ros-verystable-ecl-converters, ros-verystable-ecl-core-apps, ros-verystable-ecl-devices, ros-verystable-ecl-eigen, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-geometry, ros-verystable-ecl-ipc, ros-verystable-ecl-linear-algebra, ros-verystable-ecl-math, ros-verystable-ecl-mpl, ros-verystable-ecl-sigslots, ros-verystable-ecl-statistics, ros-verystable-ecl-streams, ros-verystable-ecl-threads, ros-verystable-ecl-time, ros-verystable-ecl-type-traits, ros-verystable-ecl-utilities, ros-verystable-ros-workspace
+Description: A set of tools and interfaces extending the capabilities of c++ to provide a lightweight, consistent interface with a focus for control programming.
