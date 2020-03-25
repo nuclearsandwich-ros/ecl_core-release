@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-manipulators
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-geometry, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_manipulators
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-manipulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-build, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-geometry, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Description: Deploys various manipulation algorithms, currently just feedforward filters (interpolations).
