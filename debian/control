@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-containers
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-config, ros-verystable-ecl-converters, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ecl-utilities, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_containers
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-containers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-config, ros-verystable-ecl-converters, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ecl-utilities, ros-verystable-ros-workspace
+Description: The containers included here are intended to extend the stl containers.
+ In all cases, these implementations are designed to implement c++ conveniences and safety where speed is not sacrificed. Also includes techniques for memory debugging of common problems such as buffer overruns.
