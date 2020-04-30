@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-converters
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-concepts, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_converters
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-converters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-concepts, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Description: Some fast/convenient type converters, mostly for char strings or strings.
+ These are not really fully fleshed out, alot of them could use the addition for the whole range of fundamental types (e.g. all integers, not just int, unsigned int). They will come as the need arises.
