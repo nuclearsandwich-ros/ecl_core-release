@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-linear-algebra
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-converters, ros-verystable-ecl-eigen, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-math, ros-verystable-sophus, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_linear_algebra
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-linear-algebra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-build, ros-verystable-ecl-converters, ros-verystable-ecl-eigen, ros-verystable-ecl-exceptions, ros-verystable-ecl-formatters, ros-verystable-ecl-license, ros-verystable-ecl-math, ros-verystable-sophus, ros-verystable-ros-workspace
+Description: Ecl frontend to a linear matrix package (currently eigen).
