@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-utilities
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-concepts, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_utilities
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-utilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-concepts, ros-verystable-ecl-license, ros-verystable-ecl-mpl, ros-verystable-ros-workspace
+Description: Includes various supporting tools and utilities for c++ programming.
