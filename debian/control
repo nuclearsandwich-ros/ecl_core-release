@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-math
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-license, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_math
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-math
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-license, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Description: This package provides simple support to cmath, filling in holes or redefining in a c++ formulation where desirable.
