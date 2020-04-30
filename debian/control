@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-mpl
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_mpl
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-mpl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Description: Metaprogramming tools move alot of runtime calculations to be shifted to compile time.
+ This has only very elementary structures at this stage.
