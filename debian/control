@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-command-line
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_command_line
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-command-line
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-license, ros-verystable-ros-workspace
+Description: Embeds the TCLAP library inside the ecl.
+ This is a very convenient command line parser in templatised c++.
