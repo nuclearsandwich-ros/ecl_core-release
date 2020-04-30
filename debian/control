@@ -1,0 +1,12 @@
+Source: ros-eloquent-ecl-filesystem
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake-gtest, ros-eloquent-ament-cmake-ros, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-ecl-build, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-license, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_filesystem
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-ecl-filesystem
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-ecl-build, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-license, ros-eloquent-ros-workspace
+Description: Cross platform filesystem utilities (until c++11 makes its way in).
