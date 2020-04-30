@@ -1,0 +1,12 @@
+Source: ros-verystable-ecl-streams
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-concepts, ros-verystable-ecl-converters, ros-verystable-ecl-devices, ros-verystable-ecl-errors, ros-verystable-ecl-license, ros-verystable-ecl-time, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_streams
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-streams
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-concepts, ros-verystable-ecl-converters, ros-verystable-ecl-devices, ros-verystable-ecl-errors, ros-verystable-ecl-license, ros-verystable-ecl-time, ros-verystable-ecl-type-traits, ros-verystable-ros-workspace
+Description: These are lightweight text streaming classes that connect to standardised ecl type devices.
