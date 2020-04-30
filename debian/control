@@ -1,0 +1,13 @@
+Source: ros-verystable-ecl-threads
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ecl-build, ros-verystable-ecl-concepts, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ecl-time, ros-verystable-ecl-utilities, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/ecl_threads
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ecl-threads
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ecl-build, ros-verystable-ecl-concepts, ros-verystable-ecl-config, ros-verystable-ecl-errors, ros-verystable-ecl-exceptions, ros-verystable-ecl-license, ros-verystable-ecl-time, ros-verystable-ecl-utilities, ros-verystable-ros-workspace
+Description: This package provides the c++ extensions for a variety of threaded programming tools.
+ These are usually different on different platforms, so the architecture for a cross-platform framework is also implemented.
