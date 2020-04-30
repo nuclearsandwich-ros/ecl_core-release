@@ -1,0 +1,13 @@
+Source: ros-eloquent-ecl-threads
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake-gtest, ros-eloquent-ament-cmake-ros, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-ecl-build, ros-eloquent-ecl-concepts, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-exceptions, ros-eloquent-ecl-license, ros-eloquent-ecl-time, ros-eloquent-ecl-utilities, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_threads
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-ecl-threads
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-ecl-build, ros-eloquent-ecl-concepts, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-exceptions, ros-eloquent-ecl-license, ros-eloquent-ecl-time, ros-eloquent-ecl-utilities, ros-eloquent-ros-workspace
+Description: This package provides the c++ extensions for a variety of threaded programming tools.
+ These are usually different on different platforms, so the architecture for a cross-platform framework is also implemented.
