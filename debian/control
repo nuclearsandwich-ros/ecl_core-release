@@ -1,0 +1,12 @@
+Source: ros-eloquent-ecl-statistics
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake-gtest, ros-eloquent-ament-cmake-ros, ros-eloquent-ament-lint-auto, ros-eloquent-ament-lint-common, ros-eloquent-ecl-build, ros-eloquent-ecl-config, ros-eloquent-ecl-license, ros-eloquent-ecl-linear-algebra, ros-eloquent-ecl-mpl, ros-eloquent-ecl-type-traits, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_statistics
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-ecl-statistics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-ecl-build, ros-eloquent-ecl-config, ros-eloquent-ecl-license, ros-eloquent-ecl-linear-algebra, ros-eloquent-ecl-mpl, ros-eloquent-ecl-type-traits, ros-eloquent-ros-workspace
+Description: Common statistical structures and algorithms for control systems.
