@@ -1,1 +1,1 @@
-{"trim": "", "base": "3812eedd5", "trimbase": "", "parent": "debian/eloquent/ecl_core_apps", "previous": "9f83477a2"}
+{"base": "d3f609a32", "parent": "debian/verystable/ecl_core_apps", "previous": "6e3d734e8", "trim": "", "trimbase": ""}
