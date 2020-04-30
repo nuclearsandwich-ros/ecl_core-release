@@ -1,1 +1,1 @@
-{"trim": "", "base": "a519c72da", "trimbase": "", "parent": "debian/eloquent/ecl_filesystem", "previous": "3e9c79d86"}
+{"base": "8202ed955", "parent": "debian/verystable/ecl_filesystem", "previous": "dd8af759e", "trim": "", "trimbase": ""}
