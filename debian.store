@@ -1,1 +1,1 @@
-{"trim": "", "base": "37fc4a138", "trimbase": "", "parent": "debian/eloquent/ecl_mobile_robot", "previous": "5e3534de8"}
+{"base": "9d5eadfcd", "parent": "debian/verystable/ecl_mobile_robot", "previous": "e6155e9fd", "trim": "", "trimbase": ""}
