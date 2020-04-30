@@ -1,0 +1,13 @@
+Source: ros-eloquent-ecl-exceptions
+Section: misc
+Priority: optional
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-eloquent-ament-cmake-ros, ros-eloquent-ecl-build, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-license, ros-eloquent-ros-workspace
+Homepage: http://wiki.ros.org/ecl_exceptions
+Standards-Version: 3.9.2
+
+Package: ros-eloquent-ecl-exceptions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-eloquent-ecl-config, ros-eloquent-ecl-errors, ros-eloquent-ecl-license, ros-eloquent-ros-workspace
+Description: Template based exceptions - these are simple and practical and avoid the proliferation of exception types.
+ Although not syntatactically ideal, it is convenient and eminently practical.
